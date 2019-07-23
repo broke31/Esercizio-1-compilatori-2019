@@ -74,7 +74,7 @@ public class LexicalAnalyzer {
               state = 23;
             }
             else if(character == '(' || character == ')' || character == '[' || character == ']'
-                || character == ',' || character == ';' || character == '.') {
+                || character == ',' || character == ';' || character == '.' || character == ':') {
                   lessema += character;
                   type = "SEPARATOR";
                   state = 25;
